@@ -113,7 +113,7 @@ void parse_arguments(int argc, char** argv)
 	}
 
 	int opt;
-	while((opt = getopt(argc,argv, "hp:t:d")) != -1)
+	while((opt = getopt(argc,argv, "hpo:t:d")) != -1)
 	{
 		//Print Help Message
 		if(opt == 'h')
